@@ -32,7 +32,7 @@
       padding: 20px;
       position: relative;
       text-align: center;
-      background-color: #a20000; /* Update background color */
+      background-color: #FFFFFF; /* Update background color */
       border-radius: 10px;
       transform: perspective(1000px) rotateY(0deg);
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
@@ -44,16 +44,16 @@
     }
 
     .input-container input {
-      color: #ffffff; /* Set the text color to black (#000) */
+      color: #000000; /* Set the text color to black (#000) */
     }
 
     .centered-text {
-      color: #ffffff; /* Set the text color to black (#000) */
+      color: #000000; /* Set the text color to black (#000) */
     }
 
     .input-container {
       display: flex;
-      background: #ffffff; /* Update background color */
+      background: #00000; /* Update background color */
       border-radius: 1rem;
       padding: 0.3rem;
       gap: 0.3rem;
@@ -63,7 +63,7 @@
 
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
-      background: #000000; /* Update background color */
+      background: #FFFFFF; /* Update background color */
       width: 89%;
       flex-basis: 75%;
       padding: 1rem;
@@ -74,15 +74,15 @@
     }
 
     .input-container input:focus {
-      border-left: 2px solid #075e54;
+      border-left: 2px solid #FFFFFF;
       outline: none;
-      box-shadow: inset 13px 13px 10px #075e54, inset -13px -13px 10px #2c3e50;
+      box-shadow: inset 13px 13px 10px #FFFFFF, inset -13px -13px 10px #2c3e50;
     }
 
     .input-container button {
       flex-basis: 25%;
       padding: 1rem;
-      background: #25d366; /* Update background color */
+      background: #000000; /* Update background color */
       font-weight: 900;
       letter-spacing: 0.3rem;
       text-transform: uppercase;
@@ -98,7 +98,7 @@
     }
 
     #waiting-message {
-      color: #ffffff; /* Set text color to light grey */
+      color: #000000; /* Set text color to light grey */
       margin-top: 10px;
     }
 
@@ -145,12 +145,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">Link Robin with phone number</h3>
+            <h3 class="centered-text">Link ZEVYX-XD with phone number</h3>
             <br>
-            <h6>🔢 Enter your number with country code. ROBIN WEB PAIR</h6>
+            <h6>🔢 Enter your number with country code. ZEVYX-XD WEB PAIR</h6>
             <div class="input-container">
-              <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, ROBIN WEB PAIR" name="">
-              <button id="submit">Submit ROBIN</button>
+              <input placeholder="+94722xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code" name="">
+              <button id="submit">Submit</button>
             </div>
             <!-- Add the loading spinner -->
             <div id="loading-spinner">
@@ -178,7 +178,7 @@
       let text = document.getElementById("copy").innerText;
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
-      obj.innerText = "✔️ COPIED";
+      obj.innerText = "✔️ Succuss";
       obj.style = "color:blue;font-weight:bold";
       obj.size = "5";
       setTimeout(() => {
